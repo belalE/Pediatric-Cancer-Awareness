@@ -1,14 +1,15 @@
 #typesRow {
     display: flex;
     align-items: center;
+    border: solid black;
 }
 
 #typesRow span{
     color: white;
-
+    padding: 0 8%;
 }
 #typesRow div {
-    padding: 2% 1px;
+    padding: 2% 0px;
 }
 
 /* 28% */
@@ -63,5 +64,13 @@
 #other {
     flex: 19%;
     background-color: rebeccapurple;
+}
+
+@media (max-width: 1200px) {
+    #typesRow span:not(.stay) {
+        color: transparent;
+    }
+    
+
 }
 
