@@ -13,7 +13,7 @@
 }
 
 /* 28% */
-#luekemia {
+#leukemia {
     flex: 28%;
     background-color: red;
 }
@@ -70,7 +70,11 @@
     #typesRow span:not(.stay) {
         color: transparent;
     }
-    
-
 }
 
+.selected {
+    filter: brightness(70%);
+}
+.hidden {
+    display: none;
+}

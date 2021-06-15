@@ -39,33 +39,49 @@
     </nav>
     <div class="container">
       <h1 class="display-1 text-center mt-3">Most Common Types</h1>
-      <div id="typesRow">
-        <div id="luekemia">
+      <div id="typesRow" class="mb-3">
+        <div class="barItem" id="leukemia">
           <span class="stay">28%</span>
         </div>
-        <div id="cns">
+        <div class="barItem" id="cns">
           <span class="stay">26%</span>
         </div>
-        <div id="lymphomas">
+        <div class="barItem" id="lymphomas">
           <span class="stay">8%</span>
         </div>
-        <div id="neuroblastoma">
+        <div class="barItem" id="neuroblastoma">
           <span>6%</span>
         </div>
-        <div id="wilms">
+        <div class="barItem" id="wilms">
           <span>5%</span>
         </div>
-        <div id="rhabdomyosarcoma">
+        <div class="barItem" id="rhabdomyosarcoma">
           <span>3%</span>
         </div>
-        <div id="bonecancer">
+        <div class="barItem" id="bonecancer">
           <span>3%</span>
         </div>
-        <div id="retinoblastoma">
+        <div class="barItem" id="retinoblastoma">
           <span>2%</span>
         </div>
-        <div id="other">
+        <div class="barItem" id="other">
           <span class="stay">19%</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body" id="currentType">
+          <h2 class="card-title" id="title">Leukemia</h2>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-muted" id="percentage">
+              28% of all childhood cancer
+            </li>
+            <li class="list-group-item" id="location">
+              Occurs in blood and bone marrow
+            </li>
+            <li class="list-group-item" id="ageGroup">
+              Most common in children of all ages
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -74,6 +90,7 @@
         <span class="text-muted">&copy UTSouthwestern Medical Center 2021</span>
       </div>
     </footer>
+    <script src="types.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
