@@ -1,0 +1,50 @@
+#typesRow {
+    display: flex;
+    align-items: center;
+}
+
+#typesRow span{
+    color: white;
+    padding: 20px 20px;
+}
+
+/* 28% */
+#luekemia {
+    
+    background-color: red;
+}
+
+/* 26% */
+#cns{
+    background-color: olivedrab;
+}
+
+/* 6% */
+#neuroblastoma { 
+    background-color: blue;
+}
+
+/* 5% */
+#wilms {
+    background-color: green;
+}
+
+/* 8% */
+#lymphomas {
+    background-color: indigo;
+}
+
+/* 3 */
+#rhabdomyosarcoma {
+    background-color: orange;
+}
+
+/* 2% */
+#retinoblastoma {
+    background-color: coral;
+}
+
+/* 3% */
+#bonecancer {
+    background-color: darkslategray;
+}
