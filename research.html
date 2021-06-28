@@ -12,7 +12,11 @@
       crossorigin="anonymous"
     />
   </head>
-  <body class="d-flex flex-column vh-100">
+  <body
+    class="d-flex flex-column vh-100"
+    data-bs-spy="scroll"
+    data-bs-target="#sidebar-parent"
+  >
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand fw-bold" href="/index.html">Pediatric Cancer</a>
@@ -38,7 +42,7 @@
     </nav>
     <div class="row">
       <div class="col-sm-2 bg-primary" id="sidebarColumn">
-        <div class="sticky-top">
+        <div id="sidebar-parent" class="sticky-top">
           <nav id="sidebar" class="navbar navbar-dark bg-primary container">
             <div class="navbar-brand">
               <h3 class="text-decoration-underline">Research</h3>
@@ -94,12 +98,7 @@
       </div>
       <div class="col col-xs-12">
         <div class="container">
-          <div
-            id="content"
-            data-bs-spy="scroll"
-            data-bs-target="#sidebar"
-            class="scrollspy-example"
-          >
+          <div id="content" class="scrollspy-example">
             <h1 class="display-1 text-center mt-3 fw-bold">Research</h1>
             <h2 class="display-3 text-decoration-underline">Hopeful Areas</h2>
             <div class="mb-4">
